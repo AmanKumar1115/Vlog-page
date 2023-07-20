@@ -1,0 +1,19 @@
+<%- include('partials/header'); -%>
+    <h1>Compose</h1>
+    <form action="/compose" method="post">
+        <div class="form-group">
+            <label>Title</label>
+            <input class="form-control" type="text" name="postTitle">
+            <label>Post</label>
+            <textarea class="form-control" name="postBody" rows="2" cols="" 30></textarea>
+        </div>
+        <div style="margin-top: 1%;">
+            <button class="btn btn-primary" type="submit" name="button">Publish</button>
+        </div>
+
+    </form>
+
+    <%- include('partials/footer'); -%>
+
+        <!-- When the spirits are low, when the day appears dark, when work becomes monotonous, 
+            when hope hardly seems worth having, just mount a bicycle and go out for a spin down the road, without thought on anything but the ride you are taking. -->
